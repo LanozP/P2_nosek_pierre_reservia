@@ -7,6 +7,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .buttoninfo{

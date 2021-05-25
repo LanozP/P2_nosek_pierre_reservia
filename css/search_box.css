@@ -15,10 +15,10 @@
 .search_box .icon_container{
     width: 50px;
     height: 50px;
-    background-color: grey;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
+    background-color: rgb(214, 209, 209);
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
 
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -35,8 +35,10 @@
     flex: 1;
     height: 48px;
     background-color: white;
-    color: black;
+    font-weight: bold;
     outline: none;
+    color: black;
+    font-size: 18px;
 
     padding-left: 20px;
 
@@ -47,16 +49,17 @@
 
 .search_box .button_search{
     font-family: "Raleway";
+    font-size: 18px;
     display: block;
     width: 135px;
     height: 52px;
-    background-color: blue;
+    background-color: #0065FC;
     color: white;
 
     border:0;
-    border-top: 1px solid blue;
-    border-bottom: 1px solid blue;
-    border-right: 1px solid blue;
+    border-top: 1px solid #0065FC;
+    border-bottom: 1px solid #0065FC;
+    border-right: 1px solid #0065FC;
 
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;

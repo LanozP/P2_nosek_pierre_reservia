@@ -22,13 +22,13 @@
     align-items: center;
     background-color: transparent; 
 
-    border-radius: 15px 15px 15px 15px;
-    border: 1px solid rgb(206, 195, 195);
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid rgb(206, 195, 195);
 
     margin-right: 20px;
 }
 
-.button_preferences .buttoneco{
+.button_preferences .logo_filtres{
     display: flex;
     color: blue;
     justify-content: center;
