@@ -1,0 +1,33 @@
+
+
+.button_filtre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid rgb(206, 195, 195)
+    
+}
+
+.button_filtre .icon_container {
+    display: flex;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color: rgb(222, 237, 243);
+    cursor: pointer;
+}
+
+.button_filtre .label {
+    font-family: "Raleway-semibold";
+    font-size: 18px;
+    align-items: center; 
+    background-color: transparent;   
+
+    padding: 12px;
+}

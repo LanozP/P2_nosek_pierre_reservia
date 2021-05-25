@@ -1,0 +1,104 @@
+
+
+.box_button_large{
+    width: auto;
+    height: auto;
+
+    background-color: rgb(248, 244, 244);
+
+    border-radius: 15px 15px 15px 15px; 
+    border: 3px solid transparent;
+
+    box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
+
+    padding: 5px;
+    margin-right: 30px;  
+}
+
+.button_image_medium{
+    width: 344px;
+    height: 145px;
+
+    display: flex;
+    background-color: white;
+
+    border-radius: 15px 15px 15px 15px; 
+    border: 3px solid transparent;
+
+    box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
+
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+    cursor: pointer;
+}
+
+.button_image_medium:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out ;
+}
+
+.button_image_medium .order{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button_image_medium .image_cannebiere{
+    width: 128px;
+
+    background-position: center;
+    background-size: cover; 
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.button_image_medium .label_medium{
+    font-family: "Raleway-bold";
+
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.button_image_medium .label_2{
+    font-family: "Raleway";
+
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.button_image_medium .star_logo{
+    display: flex;
+    font-size: 12px;
+
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    flex-direction: row;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.button_image_medium .star_blue{
+    color: #0065FC;
+}
+
+.button_image_medium .star_grey{
+    color: rgb(228, 214, 214);
+}
+
+.afficher_plus{
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+
+    margin-left: 35px;
+    margin-bottom: 30px;
+
+    border: 0;
+}
