@@ -1,0 +1,63 @@
+
+
+
+.search_box{
+    margin-top: 50px;
+    height: 50px;
+    width: 425px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_box .icon_container{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_box .input_search{
+    font-family: "Raleway";
+    display: block;
+    flex: 1;
+    height: 48px;
+    background-color: white;
+    color: black;
+    outline: none;
+
+    padding-left: 20px;
+
+    border:0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.search_box .button_search{
+    font-family: "Raleway";
+    display: block;
+    width: 135px;
+    height: 52px;
+    background-color: blue;
+    color: white;
+
+    border:0;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

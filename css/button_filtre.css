@@ -1,17 +1,34 @@
 
+.button_preferences{
+    font-family: "Raleway";
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 
-.button_filtre {
+    margin-top: 50px;
+}
+
+.button_preferences .titre_filtres{
+    font-family: "Raleway-bold";
+    font-weight: bolder;
+
+    margin-right: 20px;
+}
+
+.button_preferences .button_1{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent; 
 
     border-radius: 15px 15px 15px 15px;
-    border: 1px solid rgb(206, 195, 195)
-    
+    border: 1px solid rgb(206, 195, 195);
+
+    margin-right: 20px;
 }
 
-.button_filtre .icon_container {
+.button_preferences .buttoneco{
     display: flex;
     color: blue;
     justify-content: center;
@@ -23,7 +40,7 @@
     cursor: pointer;
 }
 
-.button_filtre .label {
+.button_preferences .eco{
     font-family: "Raleway-semibold";
     font-size: 18px;
     align-items: center; 

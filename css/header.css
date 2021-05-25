@@ -1,0 +1,33 @@
+
+#bloc_page{
+    width: 95%;
+    margin: auto;
+}
+
+#header_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+#logo{
+    margin-top: 50px;
+}
+
+header h1{
+    font-family: "Raleway-bold";
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;;
+}
+
+header h2{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+
