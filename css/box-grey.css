@@ -1,7 +1,7 @@
 
 
 .section{
-    display: flex;
+    display: inline-flex;
 }
 
 .box_grey {
@@ -24,7 +24,7 @@
     margin-left: 35px;
 }
 
-.box_grey .grid {
+.box_grey .grid{
     width: 100%;
     display: flex;
     flex-direction: row;
