@@ -1,7 +1,7 @@
 
 
 
-#conteneur{
+.conteneur{
     font-family: "raleway";
     color: "raleway";
     display: flex;
@@ -9,7 +9,7 @@
     justify-content: flex-end;
 }
 
-a{
+.conteneur a{
     text-decoration: none;
     color: black;
     margin-left: 50px;
@@ -17,12 +17,12 @@ a{
     border-top: 2px solid transparent;
 }
 
-a:hover{
+.conteneur a:hover{
     border-top: 2px solid blue;
     color: #0065FC;
 }
 
-#inscription
+.conteneur .inscription
 {
     font-family: "Raleway-bold";
     font-weight: bolder;

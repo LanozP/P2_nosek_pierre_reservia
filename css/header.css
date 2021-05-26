@@ -4,16 +4,16 @@
     margin: auto;
 }
 
+#logo{
+    margin-top: 50px;
+}
+
 #header_title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 50px;
-}
-
-#logo{
-    margin-top: 50px;
 }
 
 header h1{

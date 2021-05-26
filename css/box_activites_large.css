@@ -1,0 +1,81 @@
+
+
+.aside .button_image_large{
+    width: 303px;
+    height: 446px;
+
+    display: inline-block;
+    background-color: white;
+
+    border-radius: 15px 15px 15px 15px; 
+    border: Opx solid transparent;
+
+    box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
+    
+    cursor: pointer;
+}
+
+.aside .button_image_large:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out ;
+}
+
+.aside .button_image_large .image_cannebiere{
+    width: 303px;
+    height: 390px;
+
+    background-position: bottom;
+    background-size: cover; 
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.aside .button_image_large .label_large{
+    font-family: "Raleway";
+    font-weight: 600;
+
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.aside .button_image_large_2{
+    width: 303px;
+    height: 446px;
+
+    display: inline-block;
+    background-color: white;
+
+    border-radius: 15px 15px 15px 15px; 
+    border: Opx solid transparent;
+
+    box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
+    
+    cursor: pointer;
+}
+
+.aside .button_image_large_2:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out ;
+}
+
+.aside .button_image_large_2 .image_cannebiere{
+    width: 303px;
+    height: 390px;
+    filter: brightness(120%);
+
+    background-position: bottom;
+    background-size: cover; 
+    ba
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.aside .button_image_large_2 .label_large{
+    font-family: "Raleway";
+    font-weight: 600;
+
+    margin-left: 15px;
+    margin-top: 20px;
+}

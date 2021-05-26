@@ -16,7 +16,7 @@
     margin-right: 20px;
 }
 
-.button_preferences .button_1{
+.button_preferences .button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     margin-right: 20px;
 }
 
-.button_preferences .logo_filtres{
+.button_preferences .button .logo_filtres{
     display: flex;
     color: blue;
     justify-content: center;
@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-.button_preferences .eco{
+.button_preferences .button .label{
     font-family: "Raleway-semibold";
     font-size: 18px;
     align-items: center; 

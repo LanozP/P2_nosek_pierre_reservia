@@ -1,5 +1,9 @@
 
 
+.section{
+    display: flex;
+}
+
 .box_grey {
 
     background-color: rgb(248, 244, 244);
@@ -9,9 +13,10 @@
 
     box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
 
-    padding: 0px;
+    padding: 5px;
     margin-right: 30px;  
 }
+
 .box_grey h2 {
     font-family: "Raleway";
     font-weight: bold;
@@ -29,8 +34,4 @@
 
 .box_grey .grid .button_image_large {
     margin-bottom: 30px;
-}
-
-.section{
-    display: flex;
 }

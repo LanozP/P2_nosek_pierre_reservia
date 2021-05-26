@@ -11,6 +11,10 @@
         <link rel="stylesheet" href="../css/box-grey.css" />
         <link rel="stylesheet" href="../css/button_image_large.css" />
         <link rel="stylesheet" href="../css/button_image_medium.css" />
+        <link rel="stylesheet" href="../css/box_activites_medium.css" />
+        <link rel="stylesheet" href="../css/box_activites_large.css" />
+        <link rel="stylesheet" href="../css/box_grey_2.css" />
+
 
         <title>Reservia</title>
 
@@ -24,10 +28,10 @@
                     <div id="header_title">
                         <img id="logo" src="../images/logo/Reservia.svg"/>
                         <nav>
-                            <div id="conteneur"> 
+                            <div class="conteneur"> 
                                 <a href="index.html">Hébergements</a>
                                 <a href="forum.html">Activités</a>
-                                <a id="inscription" href="contact.html">S'inscrire</a>
+                                <a class="inscription" href="contact.html">S'inscrire</a>
                             </div>
                         </nav>
                     </div>
@@ -50,33 +54,32 @@
                     <div class="button_preferences">
                         <h2 class="titre_filtres">Filtres</h2>
                         
-                        <div class="box_filtres">
-                            <button class="button_1">
-                                <div class="logo_filtres">
+                        <button class="button">
+                            <div class="logo_filtres">
                                 <i class="fas fa-money-bill-wave"></i></div>
-                                <div class="eco">Economique</div>
-                            </button>
-                        </div>
+                            <div class="label">Economique</div>
+                        </button>
+                        
 
-                        <button class="button_1">
+                        <button class="button">
                             <div class="logo_filtres">
                                 <i class="fas fa-child"></i>
                             </div>
-                            <div class="eco">Familial</div>
+                            <div class="label">Familial</div>
                         </button>
 
-                        <button class="button_1">
+                        <button class="button">
                             <div class="logo_filtres">
                                 <i class="fas fa-heart"></i>
                             </div>
-                            <div class="eco">Romantique</div>
+                            <div class="label">Romantique</div>
                         </button>
 
-                        <button class="button_1">
+                        <button class="button">
                             <div class="logo_filtres">
                                 <i class="fas fa-dog"></i>
                             </div>
-                            <div class="eco">Animaux autorisés</div>
+                            <div class="label">Animaux autorisés</div>
                         </button>
                     </div>
 
@@ -91,8 +94,8 @@
             
                 <section class="section">
                     <div class="box_grey">
-                        <h2>Hébergements à Marseille</h2>
-                        
+                            <h2>Hébergements à Marseille</h2>
+
                         <div class="grid">
                             <div class="button_image_large">
 
@@ -276,6 +279,70 @@
                         </div>
                     </div>
                 </section>
+
+                <aside class="aside">
+                    <div class="box_grey_2">
+                            <h3>Activités à Marseille</h3>
+                    
+                            <div class="grid">
+                                <div class="grid_1">
+                                    <div class="button_image_large">
+            
+                                        <div class="image_cannebiere" style="background-image: url('../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');">
+                                        </div>
+                                
+                                        <div class="label_large">Vieux Port</div>
+                                    </div>
+                                </div>   
+
+                                <div class="grid_2">
+                                    <div class="button_image_medium_1">
+
+                                        <div class="image_cannebiere" style="background-image: url('../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg');">
+                                        </div>
+                                
+                                        <div class="label_medium">Fort de Pomègues</div>
+                                    </div>
+            
+                                    <div class="button_image_medium_2">
+            
+                                        <div class="image_cannebiere" style="background-image: url('../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');">
+                                        </div>
+                                
+                                        <div class="label_medium">Îles du Frioul</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid_3">
+                                    <div class="button_image_large_2">
+
+                                        <div class="image_cannebiere" style="background-image: url('../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');">
+                                        </div>
+                                
+                                        <div class="label_large">Parc National des Calanques</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid_4">
+                                    <div class="button_image_medium_3">
+
+                                        <div class="image_cannebiere" style="background-image: url('../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg');">
+                                        </div>
+                                
+                                        <div class="label_medium">Notre-Dame-de-la-Garde</div>
+                                    </div>
+            
+                                    <div class="button_image_medium_4">
+            
+                                        <div class="image_cannebiere" style="background-image: url('../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg');">
+                                        </div>
+                                
+                                        <div class="label_medium">Parc Longchamp</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </aside>
 
 
                 <br/>
