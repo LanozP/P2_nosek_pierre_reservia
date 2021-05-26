@@ -90,15 +90,3 @@
 .button_image_medium .star_grey{
     color: rgb(228, 214, 214);
 }
-
-.afficher_plus{
-    font-family: "Raleway";
-    font-weight: bold;
-    font-size: 18px;
-    background-color: transparent;
-
-    margin-left: 35px;
-    margin-bottom: 30px;
-
-    border: 0;
-}

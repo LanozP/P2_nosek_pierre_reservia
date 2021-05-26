@@ -8,7 +8,7 @@
     display: inline-block;
     background-color: white;
 
-    border-radius: 15px 15px 15px 15px; 
+    border-radius: 25px 25px 25px 25px; 
     border: Opx solid transparent;
 
     box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
@@ -23,7 +23,7 @@
     display: inline-block;
     background-color: white;
 
-    border-radius: 15px 15px 15px 15px; 
+    border-radius: 25px 25px 25px 25px;  
     border: Opx solid transparent;
 
     box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
@@ -38,11 +38,11 @@
     display: inline-block;
     background-color: white;
 
-    border-radius: 15px 15px 15px 15px; 
+    border-radius: 25px 25px 25px 25px; 
     border: Opx solid transparent;
 
     box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
-    
+
     cursor: pointer;
 }
 
@@ -53,7 +53,7 @@
     display: inline-block;
     background-color: white;
 
-    border-radius: 15px 15px 15px 15px; 
+    border-radius: 25px 25px 25px 25px; 
     border: Opx solid transparent;
 
     box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
@@ -61,22 +61,22 @@
     cursor: pointer;
 }
 
-.aside .pic_image_medium_1 :hover{
+.aside .pic_image_medium_1:hover{
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out ;
 }
 
-.aside .pic_image_medium_2 :hover{
+.aside .pic_image_medium_2:hover{
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out ;
 }
 
-.aside .pic_image_medium_3 :hover{
+.aside .pic_image_medium_3:hover{
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out ;
 }
 
-.aside .pic_image_medium_4 :hover{
+.aside .pic_image_medium_4:hover{
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out ;
 }
@@ -88,8 +88,8 @@
     background-position: center;
     background-size: cover; 
 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .aside .pic_image_medium_2 .image_cannebiere{
@@ -99,8 +99,8 @@
     background-position: top;
     background-size: cover; 
 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .aside .pic_image_medium_3 .image_cannebiere{
@@ -110,8 +110,8 @@
     background-position: top;
     background-size: cover; 
 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .aside .pic_image_medium_4 .image_cannebiere{
@@ -121,8 +121,8 @@
     background-position: top;
     background-size: cover; 
 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .aside .pic_image_medium_1 .label_medium{
@@ -149,7 +149,7 @@
     margin-top: 20px;
 }
 
-.aside .pic _image_medium_4 .label_medium{
+.aside .pic_image_medium_4 .label_medium{
     font-family: "Raleway";
     font-weight: 600;
 

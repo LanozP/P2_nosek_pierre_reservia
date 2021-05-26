@@ -7,7 +7,7 @@
     display: inline-block;
     background-color: white;
 
-    border-radius: 15px 15px 15px 15px; 
+    border-radius: 25px 25px 25px 25px; 
     border: Opx solid transparent;
 
     box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
@@ -27,8 +27,8 @@
     background-position: bottom;
     background-size: cover; 
 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .aside .pic_image_large .label_large{
@@ -46,7 +46,7 @@
     display: inline-block;
     background-color: white;
 
-    border-radius: 15px 15px 15px 15px; 
+    border-radius: 25px 25px 25px 25px; 
     border: Opx solid transparent;
 
     box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
@@ -65,11 +65,10 @@
     filter: brightness(120%);
 
     background-position: bottom;
-    background-size: cover; 
-    ba
+    background-size: cover;
 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;  
 }
 
 .aside .pic_image_large_2 .label_large{
