@@ -1,6 +1,6 @@
 
 
-.aside .pic_image_large{
+.section_box .pic_image_large{
     width: 303px;
     height: 446px;
 
@@ -15,12 +15,12 @@
     cursor: pointer;
 }
 
-.aside .pic_image_large:hover{
+.section_box .pic_image_large:hover{
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out ;
 }
 
-.aside .pic_image_large .image_cannebiere{
+.section_box .pic_image_large .image_cannebiere{
     width: 303px;
     height: 390px;
 
@@ -31,7 +31,7 @@
     border-top-right-radius: 25px;
 }
 
-.aside .pic_image_large .label_large{
+.section_box .pic_image_large .label_large{
     font-family: "Raleway";
     font-weight: 600;
 
@@ -39,7 +39,7 @@
     margin-top: 20px;
 }
 
-.aside .pic_image_large_2{
+.section_box .pic_image_large_2{
     width: 303px;
     height: 446px;
 
@@ -54,12 +54,12 @@
     cursor: pointer;
 }
 
-.aside .pic_image_large_2:hover{
+.section_box .pic_image_large_2:hover{
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out ;
 }
 
-.aside .pic_image_large_2 .image_cannebiere{
+.section_box .pic_image_large_2 .image_cannebiere{
     width: 303px;
     height: 390px;
     filter: brightness(120%);
@@ -71,7 +71,7 @@
     border-top-right-radius: 25px;  
 }
 
-.aside .pic_image_large_2 .label_large{
+.section_box .pic_image_large_2 .label_large{
     font-family: "Raleway";
     font-weight: 600;
 
