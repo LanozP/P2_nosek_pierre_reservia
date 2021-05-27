@@ -24,21 +24,32 @@
     background-color: transparent; 
 
     border-radius: 30px 30px 30px 30px;
-    border: 2px solid rgb(206, 195, 195);
+    border: 2px solid #F2F2F2;
 
     margin-right: 20px;
+
+}
+
+.button_preferences .button .label{
+    border: none;
+    outline: none;
+
+    cursor: pointer;    
+}
+
+.button_preferences .button:focus {
+    outline: none;
 }
 
 .button_preferences .button .logo_filtres{
     display: flex;
-    color: blue;
+    color: #0065FC;
     justify-content: center;
     align-items: center;
 
     padding: 15px 15px;
     border-radius: 50%;
-    background-color: rgb(222, 237, 243);
-    cursor: pointer;
+    background-color: #DEEBFF;
 }
 
 .button_preferences .button .label{

@@ -45,6 +45,8 @@
     border:0;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+
+    cursor: pointer;
 }
 
 .search_box .button_search{
@@ -63,4 +65,10 @@
 
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+
+    cursor: pointer;
+}
+
+.search_box .button_search:focus{
+    outline: none;
 }

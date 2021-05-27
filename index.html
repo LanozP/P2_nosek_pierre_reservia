@@ -34,7 +34,7 @@
                             <div class="conteneur"> 
                                 <a href="#hebergements">Hébergements</a>
                                 <a href="#activites">Activités</a>
-                                <a class="inscription" href="contact.html">S'inscrire</a>
+                                <a class="inscription" href="">S'inscrire</a>
                             </div>
                         </nav>
                     </div>
@@ -59,33 +59,41 @@
                     <div class="button_preferences">
                         <h2 class="titre_filtres">Filtres</h2>
                         
-                        <button class="button">
-                            <div class="logo_filtres">
-                                <i class="fas fa-money-bill-wave"></i></div>
-                            <div class="label">Economique</div>
-                        </button>
-                        
-
-                        <button class="button">
-                            <div class="logo_filtres">
-                                <i class="fas fa-child"></i>
+                        <form>
+                            <div class="button">
+                                <div class="logo_filtres">
+                                    <i class="fas fa-money-bill-wave"></i></div>
+                                <button class="label">Economique</button>
                             </div>
-                            <div class="label">Familial</div>
-                        </button>
+                        </form>    
 
-                        <button class="button">
-                            <div class="logo_filtres">
-                                <i class="fas fa-heart"></i>
+                        <form>
+                            <div class="button">
+                                <div class="logo_filtres">
+                                    <i class="fas fa-child"></i>
+                                </div>
+                                <button class="label">Familial</button>
                             </div>
-                            <div class="label">Romantique</div>
-                        </button>
+                        </form>
 
-                        <button class="button">
-                            <div class="logo_filtres">
-                                <i class="fas fa-dog"></i>
+                        <form>
+                            <div class="button">
+                                <div class="logo_filtres">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <button class="label">Romantique</button>
                             </div>
-                            <div class="label">Animaux autorisés</div>
-                        </button>
+                        </form>
+
+                        <form>
+                            <div class="button">
+                                <div class="logo_filtres">
+                                    <i class="fas fa-dog"></i>
+                                </div>
+                                <button class="label">Animaux autorisés</button>
+                            </div>
+                        </form>
+
                     </div>
 
                     <div class="info">
@@ -100,7 +108,10 @@
             
                 <section class="section_button">
                     <div class="box_grey">
-                            <h2 id="hebergements">Hébergements à Marseille</h2>
+                         
+                        <div class="box_hebergements">
+                            <h2 class="hebergements">Hébergements à Marseille</h2>
+                        </div>
 
                         <div class="grid">
                             <div class="button_image_large">
@@ -222,7 +233,14 @@
                 <!-- SECTION HEBERGEMENTS BUTTON MEDIUM -->
                 
                     <div class="box_grey">
-                        <h2>Les plus populaires</h2>
+                            
+                        <div class="titres">
+                            <h2>Les plus populaires</h2>
+                           
+                            <div class="logo_pop">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>     
 
                             <div class="button_image_medium">
 

@@ -17,11 +17,27 @@
     margin-right: 30px;  
 }
 
-.box_grey h2 {
+.box_grey .box_hebergements{
+    display: flex;
+
+    margin-left: 20px;
+}
+
+.box_grey .titres{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: auto;
+}
+
+.box_grey .titres .logo_pop{
+    font-size: 20px;
+}
+
+.box_grey .titres h2 {
     font-family: "Raleway";
     font-weight: bold;
-
-    margin-left: 35px;
 }
 
 .box_grey .grid{
