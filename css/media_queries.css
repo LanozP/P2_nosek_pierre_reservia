@@ -1,0 +1,94 @@
+
+
+
+@media screen and (max-device-width: 375px){
+    
+    body{
+        width: 100%;
+    }
+
+
+    .header_title .logo_inscription{
+        color: #0065FC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        margin-top: 20px;
+        margin-left: 10px;
+        
+    }
+
+    .header_title .logo{
+        margin-top: 0px;
+        width: 150px;
+    }
+
+    .header_title .inscription{
+        color: #0065FC;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 16px;
+        font-family: "raleway";
+        font-weight: bold;
+
+        width: 100%;
+    }
+
+    .header_title nav{
+        display: flex;
+        color: #0065FC;
+        width: 100%;
+        flex-direction: row;
+
+        margin-top: 20px;
+    }
+
+    .header_title a{
+        text-decoration: none;
+        color: #0065FC;
+
+        margin-top: 12px;
+    }
+
+    .header_title nav{
+        text-decoration: none;
+        border-bottom: 2px solid #0065FC;
+    }
+
+    .conteneur a{
+        display: none;
+    }
+
+    .header_title {
+        display: flex;
+        flex-direction: column;
+
+        width: 337px;
+    }
+
+    .header_title nav {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .header_title nav a {
+        width: 50%;
+        display: block;
+        text-align: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 376px){
+
+    .mobile{
+        display: none;
+    }
+}
