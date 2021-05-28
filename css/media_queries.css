@@ -7,6 +7,10 @@
         width: 100%;
     }
 
+    .desktop{
+        display: none;
+    }
+
     /* LOGO */
 
     .header_title .logo_inscription{
@@ -80,10 +84,6 @@
         flex-direction: column;
 
         width: 337px;
-    }
-
-    .desktop{
-        display: none;
     }
 
     .header_head h1{
@@ -173,10 +173,6 @@
     
     .search_box .button_search:focus{
         outline: none;
-    }
-
-    .search_box .desktop{
-        display: none;
     }
 
 }
