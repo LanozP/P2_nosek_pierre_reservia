@@ -28,40 +28,50 @@
 
                 <!-- HEADER / NAV -->
 
-                <header>
-                    
-                <!-- MOBILE -->
-                    <div class="header_title mobile">
+                <header>   
+                    <!-- MOBILE -->
+                    <div class="header_head mobile">
+                        <div class="header_title mobile">
 
-                        <div class="logo_inscription">
-                            <img class="logo" src="images/logo/Reservia@3x.png"/>
-                            <a class="inscription" href="">S'inscrire</a>
-                        </div>
-
-                        <nav>
-                            <a class="hebergements" href="#hebergements">Hébergements</a>
-                            <a class="activites" href="#activites">Activités</a>
-                        </nav>
-                    </div>
-                <!-- MOBILE -->
-
-                    <div class="header_title desktop">
-                        <img class="logo" src="images/logo/Reservia.svg"/>
-                        <nav>
-                            <div class="conteneur"> 
-                                <a href="#hebergements">Hébergements</a>
-                                <a href="#activites">Activités</a>
+                            <div class="logo_inscription">
+                                <img class="logo" src="images/logo/Reservia@3x.png"/>
                                 <a class="inscription" href="">S'inscrire</a>
                             </div>
-                        </nav>
-                    </div>
 
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <h2>En plein centre ville ou en pleine nature</h2>
+                            <nav>
+                                <a class="hebergements" href="#hebergements">Hébergements</a>
+                                <a class="activites" href="#activites">Activités</a>
+                            </nav>
+                        </div>
+
+                        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                        <h2>En plein centre ville ou en pleine nature</h2>
+                    </div>
+                    <!-- MOBILE -->
+
+                    <!-- DESKTOP -->
+                    <div class="header_head desktop">
+                        <div class="header_title">
+                            <img class="logo" src="images/logo/Reservia.svg"/>
+                            <nav>
+                                <div class="conteneur"> 
+                                    <a href="#hebergements">Hébergements</a>
+                                    <a href="#activites">Activités</a>
+                                    <a class="inscription" href="">S'inscrire</a>
+                                </div>
+                            </nav>
+                        </div>
+                    
+                        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                        <h2>En plein centre ville ou en pleine nature</h2>
+                    </div>
                 </header>
+                <!-- DESKTOP -->
 
                     <!-- SECTION SEARCH BOX -->
 
+                <!-- MOBILE -->    
+                <div class="search_box mobile">
                     <form action="index.html">
                         <div class="search_box">
                             <div class="icon_search">
@@ -71,6 +81,23 @@
                             <button class="button_search" type="submit">Rechercher</button>
                         </div>
                     </form>
+                </div>
+                <!-- MOBILE -->  
+
+                <!-- DESKTOP -->
+                <div class="search_box">
+                    <form action="index.html">
+                        <div class="search_box">
+                            <div class="icon_search">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <input class="place_search" type="text" placeholder="Marseille, France" />
+                            <button class="button_search" type="submit">Rechercher</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- DESKTOP -->
+
 
                     <!-- SECTION FILTERS -->
 
