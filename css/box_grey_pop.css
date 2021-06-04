@@ -1,0 +1,123 @@
+
+
+.section_box{
+    display: flex;
+}
+
+.box_grey_pop{
+    background-color: rgb(248, 244, 244);
+
+    border-radius: 15px 15px 15px 15px; 
+    border: 3px solid transparent;
+
+    box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
+
+    margin-right: 20px;  
+}
+
+.box_grey_pop .titres_pop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+
+    margin: auto;
+
+    font-family: "raleway";
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.box_grey_pop .titres_pop h2 {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.logo_pop {
+    font-size: 25px;
+}
+
+.box_grey_pop .button_image_medium{
+    width: 344px;
+    height: 145px;
+
+    display: flex;
+    background-color: white;
+
+    border-radius: 15px 15px 15px 15px; 
+    border: 0px solid transparent;
+
+    box-shadow: 10px 11px 9px -15px rgba(0,0,0,0.75);
+
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+
+    cursor: pointer;
+}
+
+.box_grey_pop .button_image_medium:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out ;
+}
+
+.box_grey_pop .button_image_medium .order{
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box_grey_pop .button_image_medium .image_cannebiere{
+    width: 128px;
+
+    background-position: center;
+    background-size: cover; 
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box_grey_pop .button_image_medium .image_cannebiere_{
+    width: 182px;
+
+    background-position: center;
+    background-size: cover; 
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box_grey_pop .button_image_medium .label_medium{
+    font-family: "Raleway-bold";
+
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-right: 25px;
+}
+
+.box_grey_pop .button_image_medium .label_2{
+    font-family: "Raleway";
+    font-size: 14px;
+
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.box_grey_pop .button_image_medium .star_blue{
+    color: #0065FC;
+}
+
+.box_grey_pop .button_image_medium .star_grey{
+    color: rgb(228, 214, 214);
+}   
+
+.box_grey_pop .button_image_medium .star_logo {
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 48px;
+}
