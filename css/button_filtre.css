@@ -60,3 +60,11 @@
 
     padding: 12px;
 }
+
+.button_preferences .button_mobile_1 {
+    display: flex;
+}
+
+.button_preferences .button_mobile_2 {
+    display: flex;
+}
