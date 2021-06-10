@@ -4,7 +4,7 @@
     display:none;
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-width: 375px){
     
 
     .bloc_page {
@@ -13,8 +13,6 @@
     
     body{
         width: 100%;
-
-        padding-top: 20px;
         padding-left: 0px;
     }
 
@@ -33,7 +31,7 @@
     .header_title {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-end;
         padding-bottom: 5px;
     }
 
@@ -46,7 +44,8 @@
         font-weight: bold;
 
         padding-top: 20px;
-        padding-right: 10px;
+        padding-right: 18px;
+        padding-bottom: 10px;
     }
 
     .header_title a {
@@ -185,6 +184,8 @@
     .section_box_bnb .box_grey_bnb {
         background-color: transparent;
         box-shadow: none;
+
+        margin-right: 0px;
     }
 
     .section_box_pop_bnb .box_grey_bnb .grid .button_image_large {
@@ -258,6 +259,9 @@
 
     .footer_boxes {
         display: block;
+
+        padding-left: 35px;
+        padding-top: 30px;
     }
 
     .label_box {
@@ -276,7 +280,7 @@
     }
 }
 
-@media screen and (min-device-width: 376px){
+@media screen and (min-width: 376px){
 
     .mobile {
         display: none;
@@ -288,5 +292,55 @@
 
     .mobile{
         display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .section_box_play {
+        padding-top: 10px;
+    }
+
+    .section_box_play h3 {
+        font-size: 22px;
+        padding-left: 20px;
+    }
+
+    .section_box_play .grid_aside {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section_box_play .grid_aside .bloc_responsive_1 .bloc_responsive_2 {
+        display: flex;
+    }
+
+    .section_box_play .grid_aside .image_1,
+    .section_box_play .grid_aside .image_2,
+    .section_box_play .grid_aside .image_3,
+    .section_box_play .grid_aside .image_4,
+    .section_box_play .grid_aside .image_5 {
+         width: 336px;
+         height: 190px;
+
+         padding-bottom: 20px;
+         margin-bottom: 20px;
+    }
+ 
+    .section_box_play .grid_aside .pic_image_1,
+    .section_box_play .grid_aside .pic_image_2,
+    .section_box_play .grid_aside .pic_image_3,
+    .section_box_play .grid_aside .pic_image_4,
+    .section_box_play .grid_aside .pic_image_5 {
+        width: 336px;
+        height: 135px;
+    }
+
+    .section_box_play .bloc_1 {
+        padding: 0;
+    }
+
+    .section_box_play .bloc_2 {
+        padding: 0;
     }
 }
