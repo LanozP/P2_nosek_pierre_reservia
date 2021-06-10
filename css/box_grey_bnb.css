@@ -3,6 +3,7 @@
 
 .section_box_bnb {
     display: flex;
+    align-items: center;
 }
 
 .section_box_bnb .box_grey_bnb{
@@ -12,17 +13,14 @@
     border: 3px solid transparent;
 
     box-shadow: 5px 7px 24px -20px rgba(0,0,0,0.75);
-
-    margin-right: 40px;  
 }
 
 .section_box_bnb .box_grey_bnb .titres_bnb{
     display: flex;  
     flex-direction: row;
-    align-items: center;
-
-    margin-left: 35px;
-    margin-top: 30px;
+    justify-content: center;
+    
+    padding-top: 30px;
 }
 
 .section_box_bnb .box_grey_bnb .titres_bnb h2 {
@@ -36,8 +34,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
-    padding-left: 10px;
 }
 
 .section_box_bnb .box_grey_bnb .grid .button_image_large {
@@ -56,11 +52,7 @@
     
     cursor: pointer;
     margin-bottom: 30px;
-    margin-right: 10px;
 }
-
-
-
 
 .box_grey_bnb .button_image_large:hover{
     transform: scale(1.05);
@@ -81,15 +73,15 @@
 .box_grey_bnb .button_image_large .label_large{
     font-family: "Raleway-bold";
 
-    margin-left: 15px;
-    margin-top: 8px;
+    padding-left: 15px;
+    padding-top: 8px;
 }
 
 .box_grey_bnb .button_image_large .label_2{
     font-family: "Raleway";
 
-    margin-left: 15px;
-    margin-top: 8px;
+    padding-left: 15px;
+    padding-top: 8px;
     font-size: 14px;
 }
 
@@ -97,9 +89,9 @@
     display: flex;
     font-size: 12px;
 
-    margin-left: 15px;
-    margin-top: 12px;
-    margin-bottom: 8px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 8px;
 }
 
 .box_grey_bnb .button_image_large .star_blue{
@@ -116,8 +108,8 @@
     font-size: 18px;
     background-color: transparent;
 
-    margin-left: 35px;
-    margin-bottom: 30px;
+    padding-left: 35px;
+    padding-bottom: 30px;
 
     border: 0;
 

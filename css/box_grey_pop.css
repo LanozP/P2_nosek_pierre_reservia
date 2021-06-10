@@ -11,12 +11,15 @@
 .box_grey_pop{
     background-color: rgb(248, 244, 244);
 
-    border-radius: 15px 15px 15px 15px; 
-    border: 3px solid transparent;
+    border-radius: 15px 15px 15px 15px;
 
     box-shadow: 10px 12px 14px -13px rgba(0,0,0,0.75);
+}
 
-    margin-right: 20px;  
+.box_grey_pop .grid_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box_grey_pop .titres_pop{
@@ -25,14 +28,14 @@
     justify-content: space-between;
     align-items: baseline;
 
-    margin: auto;
+    padding: auto;
 
     font-family: "raleway";
     font-weight: bold;
 
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right    : 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 
 .box_grey_pop .titres_pop h2 {
@@ -46,7 +49,7 @@
 }
 
 .box_grey_pop .button_image_medium{
-    width: 344px;
+    width: 90%;
     height: 145px;
 
     display: flex;
@@ -57,10 +60,9 @@
 
     box-shadow: 10px 11px 9px -15px rgba(0,0,0,0.75);
 
-    padding: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 35px;
+    padding: 4px;
+
+    margin-bottom: 30px;
 
     cursor: pointer;
 }
@@ -109,17 +111,17 @@
 .box_grey_pop .button_image_medium .label_medium{
     font-family: "Raleway-bold";
 
-    margin-left: 15px;
-    margin-top: 12px;
-    margin-right: 25px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-right: 25px;
 }
 
 .box_grey_pop .button_image_medium .label_2{
     font-family: "Raleway";
     font-size: 14px;
 
-    margin-left: 15px;
-    margin-top: 8px;
+    padding-left: 15px;
+    padding-top: 8px;
 }
 
 .box_grey_pop .button_image_medium .star_blue{
@@ -132,6 +134,6 @@
 
 .box_grey_pop .button_image_medium .star_logo {
     font-size: 11px;
-    margin-left: 15px;
-    margin-top: 48px;
+    padding-left: 15px;
+    padding-top: 48px;
 }

@@ -14,24 +14,27 @@
     body{
         width: 100%;
 
-        margin-top: 40px;
-        margin-left: 0px;
+        padding-top: 20px;
+        padding-left: 0px;
     }
 
     /* header */
 
     .header_head {
-        width: 95%;
+        width: 100%;
     }
 
     .header_title .logo {
         align-items: center;
-        margin: auto;
-        margin-left: 20px;
+        padding: auto;
+        padding-left: 20px;
     }
 
     .header_title {
-        margin-bottom: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 5px;
     }
 
     .header_head .inscription{
@@ -42,8 +45,8 @@
 
         font-weight: bold;
 
-        margin-top: 20px;
-        margin-right: 10px;
+        padding-top: 20px;
+        padding-right: 10px;
     }
 
     .header_title a {
@@ -60,7 +63,7 @@
         border-bottom: 3px solid #ccc;
         padding-bottom: 10px;
         border-top: transparent;
-        margin-left: -22px;
+        padding-left: -22px;
 
         flex: 1;
         padding-top: 20px;
@@ -72,17 +75,26 @@
         border-bottom: 3px solid #0065FC;
     }
 
-    .header_head .h1_h2 {
-        margin-top: 30px;
-        margin-left: 20px;
+    .box_reponsive {
+        padding-left: 10px;
+        padding-right: 10px;
     }
+
+    .header_head .h1_h2 {
+        width: 100%;
+        padding-top: 30px;
+    }   
 
     /* Search box */
 
     .search_box {
         width: 300px;
-        margin: auto;
-        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .search_boxes {
+        display: flex;
+        justify-content: center;
     }
 
     .search_box .icon_search {
@@ -110,28 +122,23 @@
     /* Filter */
 
     .button_preferences {
-        margin-left: 20px;
+        padding-left: 0;
+        padding-top: 5px;
     }
 
     .button_preferences .button {
         display: inline-flex;
+        padding-right: 0;
+        margin-right: 5px;
     }
 
-    .button_preferences .button_mobile_1 {
-        display: flex;
-        margin-bottom: 10px;
-    }
-
-    .button_mobile_2 .button {
-        margin-bottom: 10px;
-    }
-
-    .button_mobile_3 .button {
-        margin-bottom: 10px;
+    .button_mobile_1 {
+        padding-bottom: 10px;
     }
 
     .button_mobile_2 {
         display: grid;
+        padding-bottom: 10px;
     }
 
     .button_mobile_3 {
@@ -139,7 +146,11 @@
     }
 
     .info {
-        margin-left: 20px;
+        padding-left: 0;
+    }
+
+    .textinfo {
+        padding-left: 10px;
     }
 
     /* Section POP & BNB */
@@ -158,20 +169,14 @@
     }
 
     .box_grey_pop .titres_pop {
-        margin-left: 0px;
+        padding-left: 0px;
         justify-content: space-between;
-        margin-left: 20px;
-        margin-right: 35px;
+        padding-left: 20px;
+        padding-right: 35px;
     }
-
-    .box_grey_pop .button_image_medium{
-        width: 320px;
-    }
-
-    
 
     .box_grey_pop .button_image_medium .star_logo {
-        margin-left: 17px;
+        padding-left: 17px;
         font-size: 11px;
     }
 
@@ -196,18 +201,29 @@
         font-size: 16px;
         font-family: "Raleway-bold";
     
-        margin-left: 15px;
-        margin-top: 8px;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    .box_grey_bnb .afficher_plus {
+        padding-bottom: 0px;
+        padding-left: 20px;
     }
 
     /* Section box play */
 
     .section_box_play {
-        margin-left: 10px;
+        padding-top: 10px;
+    }
+
+    .section_box_play h3 {
+        font-size: 22px;
+        padding-left: 20px;
     }
 
     .section_box_play .grid_aside {
         display: grid;
+        justify-content: center;
     }
 
     .section_box_play .grid_aside .image_1,
@@ -218,7 +234,7 @@
          width: 336px;
          height: 190px;
 
-         margin-bottom: 20px;
+         padding-bottom: 20px;
     }
  
     .section_box_play .grid_aside .pic_image_1,
@@ -231,11 +247,11 @@
     }
 
     .section_box_play .bloc_1 {
-        margin: 0;
+        padding: 0;
     }
 
     .section_box_play .bloc_2 {
-        margin: 0;
+        padding: 0;
     }
 
     /* Footer */
@@ -245,14 +261,14 @@
     }
 
     .label_box {
-        margin-bottom: 40px;
+        padding-bottom: 40px;
     }
 
     .footer_box_1 a{
         color: black;
         font-size: 16px;
     
-        margin-right: 0px;
+        padding-right: 0px;
     }
 
     .desktop {
