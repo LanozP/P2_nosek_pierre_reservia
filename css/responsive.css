@@ -62,7 +62,6 @@
         border-bottom: 3px solid #ccc;
         padding-bottom: 10px;
         border-top: transparent;
-        padding-left: -22px;
 
         flex: 1;
         padding-top: 20px;
@@ -156,6 +155,7 @@
 
     .section_box_pop_bnb {
         display: block;
+        flex-direction: column;
     }
 
     /* Section POP */
@@ -172,6 +172,10 @@
         justify-content: space-between;
         padding-left: 20px;
         padding-right: 35px;
+    }
+
+    .box_grey_pop .button_image_medium .image_cannebiere_2{
+        width: 128px;
     }
 
     .box_grey_pop .button_image_medium .star_logo {
@@ -296,6 +300,30 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    .button_preferences .button_mobile_1 {
+        margin-bottom: 5px;
+    }
+
+    .conteneur a {
+        margin-left: 50px;
+    }
+
+    .textinfo {
+        margin-left: 5px;
+    }
+
+    .section_box_pop_bnb {
+        flex-direction: column-reverse;
+    }
+
+    .box_grey_bnb {
+        margin-bottom: 15px;
+    }
+
+    .section_box_bnb .box_grey_bnb {
+        margin-right: 0 ;
+    }
     
     .section_box_play {
         padding-top: 10px;
