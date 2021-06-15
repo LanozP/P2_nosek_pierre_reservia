@@ -5,8 +5,6 @@
 }
 
 .box_grey_pop{
-    height: 100%;
-
     background-color: rgb(248, 244, 244);
 
     border-radius: 15px 15px 15px 15px;
@@ -44,7 +42,7 @@
     font-size: 25px;
 }
 
-.box_grey_pop .button_image_medium{
+.box_grey_pop .button_image_medium {
     width: 90%;
     height: 145px;
 
@@ -76,26 +74,6 @@
 
 .box_grey_pop .button_image_medium .image_cannebiere{
     width: 128px;
-
-    background-position: center;
-    background-size: cover; 
-
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.box_grey_pop .button_image_medium .image_cannebiere_2{
-    width: 182px;
-
-    background-position: center;
-    background-size: cover; 
-
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.box_grey_pop .button_image_medium .image_cannebiere_{
-    width: 182px;
 
     background-position: center;
     background-size: cover; 
