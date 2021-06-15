@@ -343,7 +343,13 @@
         display: flex;
     }
 
-    .section_box_play .grid_aside .image_1,
+    .section_box_play .grid_aside .image_1 {
+        width: 336px;
+        height: 446px;
+
+        margin-bottom: 20px;
+    }
+
     .section_box_play .grid_aside .image_2,
     .section_box_play .grid_aside .image_3,
     .section_box_play .grid_aside .image_4,
@@ -351,11 +357,14 @@
          width: 336px;
          height: 190px;
 
-         padding-bottom: 20px;
          margin-bottom: 20px;
     }
  
-    .section_box_play .grid_aside .pic_image_1,
+    .section_box_play .grid_aside .pic_image_1 {
+        width: 336px;
+        height: 390px;
+    }
+
     .section_box_play .grid_aside .pic_image_2,
     .section_box_play .grid_aside .pic_image_3,
     .section_box_play .grid_aside .pic_image_4,
