@@ -176,6 +176,15 @@
         padding-right: 35px;
     }
 
+    .box_grey_pop .button_image_medium .image_cannebiere {
+        width: 128px;
+    }
+
+    .box_grey_pop .button_image_medium .order {
+        width: 185px;
+        padding-left: 5px;
+    }
+
     .box_grey_pop .button_image_medium .star_logo {
         padding-left: 17px;
         font-size: 11px;

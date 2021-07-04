@@ -67,6 +67,8 @@
 }
 
 .box_grey_pop .button_image_medium .order{
+    width: 185px;
+    
     display: block;
     flex-direction: column;
     justify-content: space-around;
