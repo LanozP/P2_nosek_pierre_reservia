@@ -334,7 +334,7 @@
     .section_box_play .grid_aside .pic_image_5 {
         width: 336px;
         height: 135px;
-    }    
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -361,7 +361,7 @@
 
     .section_box_bnb .box_grey_bnb {
         margin-right: 0 ;
-    }
+    }     
     
     .section_box_play {
         padding-top: 10px;
@@ -422,6 +422,7 @@
 }
 
 @media screen and (min-width: 1280px) {
+    
 }
 
 @media screen and (max-width: 1280px) {
@@ -441,6 +442,10 @@
     .box_grey_pop .button_image_medium .label_medium {
         padding-right: 0;
         padding-left: 0;
+    }
+
+    .box_grey_pop .button_image_medium .order {
+        padding-left: 10px;
     }
 
     .box_grey_pop .button_image_medium .label_2{
